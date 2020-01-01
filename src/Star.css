@@ -1,0 +1,29 @@
+
+
+button.star {
+
+  padding: 2px;
+  font-size: 1rem;
+  color: #999;
+  margin-bottom: 12px;
+}
+
+button.star:before {
+  content: '\f005';
+  font-family: fontAwesome;
+}
+
+button.star-red {
+
+  padding: 2px;
+  font-size: 1rem;
+  color: red;
+  margin-bottom: 12px;
+  border-style: none;
+
+}
+
+button.star-red:before {
+  content: '\f005';
+  font-family: fontAwesome;
+}
